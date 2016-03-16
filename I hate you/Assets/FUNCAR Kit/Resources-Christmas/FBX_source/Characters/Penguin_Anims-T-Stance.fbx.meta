@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 9bdee02f4b76173449f57a15d0251e5e
+timeCreated: 1452094014
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint21
+    100002: joint23
+    100004: joint25
+    100006: joint27
+    100008: joint31
+    100010: penguin
+    100012: //RootNode
+    100014: penguin_base_JNT
+    100016: penguin_head_JNT
+    100018: penguin_Larm_JNT
+    100020: penguin_Lfoot_JNT
+    100022: penguin_Lleg_JNT
+    100024: penguin_Rarm_JNT
+    100026: penguin_Rfoot_JNT
+    100028: penguin_Rleg_JNT
+    100030: penguin_spine1_JNT
+    100032: penguin_spine_JNT
+    100034: penguin_Lelbow_JNT
+    100036: penguin_Lknee_JNT
+    100038: penguin_Relbow_JNT
+    100040: penguin_Rknee_JNT
+    100042: joint32
+    100044: joint33
+    100046: joint34
+    100048: joint35
+    100050: joint36
+    100052: joint37
+    100054: joint38
+    100056: joint39
+    100058: joint40
+    100060: joint41
+    100062: joint42
+    100064: joint43
+    100066: joint44
+    100068: joint45
+    100070: joint46
+    100072: joint47
+    100074: joint48
+    100076: joint49
+    100078: joint50
+    100080: Penguin_Character
+    100082: penguin_head
+    100084: penguin_hips
+    100086: penguin_Larm
+    100088: penguin_Lelbow
+    100090: penguin_Lfoot
+    100092: penguin_Lknee
+    100094: penguin_Lleg
+    100096: penguin_Rarm
+    100098: penguin_Relbow
+    100100: penguin_Rfoot
+    100102: penguin_Rknee
+    100104: penguin_Rleg
+    100106: penguin_spine1
+    100108: penguin_spine2
+    100110: penguin_hips_CTRL
+    100112: penguin_main_CTRL
+    400000: joint21
+    400002: joint23
+    400004: joint25
+    400006: joint27
+    400008: joint31
+    400010: penguin
+    400012: //RootNode
+    400014: penguin_base_JNT
+    400016: penguin_head_JNT
+    400018: penguin_Larm_JNT
+    400020: penguin_Lfoot_JNT
+    400022: penguin_Lleg_JNT
+    400024: penguin_Rarm_JNT
+    400026: penguin_Rfoot_JNT
+    400028: penguin_Rleg_JNT
+    400030: penguin_spine1_JNT
+    400032: penguin_spine_JNT
+    400034: penguin_Lelbow_JNT
+    400036: penguin_Lknee_JNT
+    400038: penguin_Relbow_JNT
+    400040: penguin_Rknee_JNT
+    400042: joint32
+    400044: joint33
+    400046: joint34
+    400048: joint35
+    400050: joint36
+    400052: joint37
+    400054: joint38
+    400056: joint39
+    400058: joint40
+    400060: joint41
+    400062: joint42
+    400064: joint43
+    400066: joint44
+    400068: joint45
+    400070: joint46
+    400072: joint47
+    400074: joint48
+    400076: joint49
+    400078: joint50
+    400080: Penguin_Character
+    400082: penguin_head
+    400084: penguin_hips
+    400086: penguin_Larm
+    400088: penguin_Lelbow
+    400090: penguin_Lfoot
+    400092: penguin_Lknee
+    400094: penguin_Lleg
+    400096: penguin_Rarm
+    400098: penguin_Relbow
+    400100: penguin_Rfoot
+    400102: penguin_Rknee
+    400104: penguin_Rleg
+    400106: penguin_spine1
+    400108: penguin_spine2
+    400110: penguin_hips_CTRL
+    400112: penguin_main_CTRL
+    2300000: penguin
+    3300000: penguin
+    4300000: penguin
+    7400000: penguin_idle
+    7400002: penguin_run
+    9500000: //RootNode
+    13700000: penguin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''Penguin_Anims-T-Stance'' conversion failed: Required human bone
+      ''LeftHand'' not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: penguin_idle
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Penguin_Character
+        weight: 1
+      - path: Penguin_Character/penguin
+        weight: 1
+      - path: penguin_hips
+        weight: 1
+      - path: penguin_hips/penguin_Lleg
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee/penguin_Lfoot
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee/penguin_Lfoot/joint46
+        weight: 1
+      - path: penguin_hips/penguin_Rleg
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee/penguin_Rfoot
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee/penguin_Rfoot/joint50
+        weight: 1
+      - path: penguin_hips/penguin_spine1
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_head
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_head/joint36
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm/penguin_Lelbow
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm/penguin_Lelbow/joint39
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm/penguin_Relbow
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm/penguin_Relbow/joint42
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: penguin_run
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Penguin_Character
+        weight: 1
+      - path: Penguin_Character/penguin
+        weight: 1
+      - path: penguin_hips
+        weight: 1
+      - path: penguin_hips/penguin_Lleg
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee/penguin_Lfoot
+        weight: 1
+      - path: penguin_hips/penguin_Lleg/penguin_Lknee/penguin_Lfoot/joint46
+        weight: 1
+      - path: penguin_hips/penguin_Rleg
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee/penguin_Rfoot
+        weight: 1
+      - path: penguin_hips/penguin_Rleg/penguin_Rknee/penguin_Rfoot/joint50
+        weight: 1
+      - path: penguin_hips/penguin_spine1
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_head
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_head/joint36
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm/penguin_Lelbow
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Larm/penguin_Lelbow/joint39
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm/penguin_Relbow
+        weight: 1
+      - path: penguin_hips/penguin_spine1/penguin_spine2/penguin_Rarm/penguin_Relbow/joint42
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: penguin_hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Lleg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Rleg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Lknee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Rknee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Lfoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Rfoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Larm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Rarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Lelbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: penguin_Relbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint36
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Penguin_Anims-T-Stance(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Penguin_Character
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: penguin
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: penguin_hips
+      position: {x: -3.526277e-17, y: 0.30319983, z: 0.002158711}
+      rotation: {x: -0.47878876, y: 0.52034736, z: -0.47878876, w: 0.52034736}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: penguin_spine1
+      position: {x: -0.8188363, y: 3.1086245e-17, z: 6.500441e-16}
+      rotation: {x: -0.9995656, y: -0.02947193, z: -0.000000029802319, w: 0.000000029802319}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: penguin_spine2
+      position: {x: -0.8153092, y: -0.0965768, z: 9.067841e-16}
+      rotation: {x: 0.99942076, y: 0.034033656, z: -0.000000029802322, w: 0.000000029802322}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999964}
+      transformModified: 1
+    - name: penguin_head
+      position: {x: -0.80776745, y: 0.080760285, z: 3.068723e-15}
+      rotation: {x: 0.000000029802322, y: -0.00000008940697, z: 0.044185847, w: -0.9990233}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: joint36
+      position: {x: -1.050341, y: 6.3157974e-15, z: 5.443748e-16}
+      rotation: {x: 0.5035839, y: -0.49639025, z: -0.5035839, w: -0.49639025}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: penguin_Rarm
+      position: {x: -0.039599508, y: 0.07873594, z: 0.497172}
+      rotation: {x: -0.3240707, y: 0.70762825, z: 0.5499729, w: 0.30293626}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+      transformModified: 1
+    - name: penguin_Relbow
+      position: {x: -0.37683862, y: -3.4416914e-17, z: 3.5527136e-17}
+      rotation: {x: -0.000000014901159, y: -0.000000087544315, z: -0.000000029802319,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: joint42
+      position: {x: -0.41257158, y: -0.0000021627213, z: -0.00000005218226}
+      rotation: {x: -0.03335033, y: -0.10099904, z: -0.31177363, w: 0.94418436}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: penguin_Larm
+      position: {x: -0.039597664, y: 0.07873581, z: -0.49717203}
+      rotation: {x: 0.32406932, y: -0.70762885, z: 0.5499734, w: 0.30293527}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: penguin_Lelbow
+      position: {x: -0.38984805, y: 1.1657341e-16, z: 1.2434498e-16}
+      rotation: {x: -0.00000005587934, y: -0.000000038184215, z: 0.00000006309709,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: joint39
+      position: {x: -0.3995611, y: 0.0000023476196, z: 0.000000027531469}
+      rotation: {x: 0.31177562, y: 0.9441837, z: 0.033350553, w: -0.10099898}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: penguin_Lleg
+      position: {x: 0.025584938, y: 0.07991943, z: -0.24719995}
+      rotation: {x: -0.00071205193, y: -0.9992252, z: -0.003239959, w: 0.039216932}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999999}
+      transformModified: 1
+    - name: penguin_Lknee
+      position: {x: -0.10718673, y: 1.9461361e-17, z: -6.5314406e-17}
+      rotation: {x: -0.00000013411044, y: 0.0000032186504, z: -0.0000005513429, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: penguin_Lfoot
+      position: {x: -0.13299294, y: -0.0015967296, z: -0.02242598}
+      rotation: {x: -0.31958762, y: -0.45396775, z: -0.5327016, w: -0.6387535}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: joint46
+      position: {x: -0.84723973, y: 1.0411598e-14, z: -2.6747695e-15}
+      rotation: {x: -0.49218798, y: -0.5076918, z: -0.6069935, w: -0.36271045}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: penguin_Rleg
+      position: {x: 0.025585152, y: 0.07991944, z: 0.24719998}
+      rotation: {x: -0.0007119774, y: -0.99922514, z: 0.0032401825, w: -0.03921951}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: penguin_Rknee
+      position: {x: -0.09888623, y: -6.947478e-19, z: 1.0486235e-17}
+      rotation: {x: -0.00000032782552, y: 0.000007182359, z: -0.00000037252897, w: 1}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999997}
+      transformModified: 1
+    - name: penguin_Rfoot
+      position: {x: -0.10050295, y: 0.0017439681, z: -0.020713646}
+      rotation: {x: -0.35847214, y: -0.509202, z: 0.5011314, w: 0.6008981}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: joint50
+      position: {x: -0.8472394, y: 5.6018444e-13, z: 1.4277288e-13}
+      rotation: {x: 0.6069936, y: -0.3627104, z: 0.49218786, w: -0.5076919}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

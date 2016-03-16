@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 0455761f78b3b8f4d826fa018ae4b4fb
+timeCreated: 1448280726
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: base_JNT
+    100002: hat_JNT
+    100004: head_JNT
+    100006: joint11
+    100008: joint16
+    100010: joint6
+    100012: LarmJNT
+    100014: Lforearm_JNT
+    100016: Lhand_JNT
+    100018: Lshoulder_JNT
+    100020: Rarm_JNT
+    100022: Rforearm_JNT
+    100024: Rhand_JNT
+    100026: Rshoulder_JNT
+    100028: snowman
+    100030: //RootNode
+    100032: spine1_JNT
+    100034: spine_JNT
+    400000: base_JNT
+    400002: hat_JNT
+    400004: head_JNT
+    400006: joint11
+    400008: joint16
+    400010: joint6
+    400012: LarmJNT
+    400014: Lforearm_JNT
+    400016: Lhand_JNT
+    400018: Lshoulder_JNT
+    400020: Rarm_JNT
+    400022: Rforearm_JNT
+    400024: Rhand_JNT
+    400026: Rshoulder_JNT
+    400028: snowman
+    400030: //RootNode
+    400032: spine1_JNT
+    400034: spine_JNT
+    4300000: snowman
+    7400000: snowman_idle
+    7400002: snowman_spawn
+    7400004: snowman_hide
+    9500000: //RootNode
+    13700000: snowman
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: snowman_idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT/joint6
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT/joint16
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT/joint11
+        weight: 0
+      - path: snowman
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: snowman_spawn
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT/joint6
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT/joint16
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT/joint11
+        weight: 0
+      - path: snowman
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: snowman_hide
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/head_JNT/hat_JNT/joint6
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Lshoulder_JNT/LarmJNT/Lforearm_JNT/Lhand_JNT/joint16
+        weight: 0
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT
+        weight: 1
+      - path: base_JNT/spine_JNT/spine1_JNT/Rshoulder_JNT/Rarm_JNT/Rforearm_JNT/Rhand_JNT/joint11
+        weight: 0
+      - path: snowman
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: base_JNT
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_JNT
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine1_JNT
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_JNT
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rshoulder_JNT
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rarm_JNT
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LarmJNT
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rforearm_JNT
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lforearm_JNT
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rhand_JNT
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lhand_JNT
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hat_JNT
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lshoulder_JNT
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Snowman_Anims-T-Stance(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: base_JNT
+      position: {x: 3.5527136e-17, y: -.0996895656, z: .137926087}
+      rotation: {x: .521949887, y: -.477041215, z: .521949887, w: -.477041215}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine_JNT
+      position: {x: -1.84764457, y: 7.37415131e-16, z: -2.05129754e-16}
+      rotation: {x: 0, y: 0, z: -.0245162807, w: .999699414}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine1_JNT
+      position: {x: -1.55677271, y: 1.4566126e-15, z: 3.40263151e-15}
+      rotation: {x: 0, y: 0, z: .154911533, w: .987928331}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_JNT
+      position: {x: -1.93512237, y: 5.68434176e-16, z: -6.94750452e-16}
+      rotation: {x: 0, y: -0, z: -.0278767515, w: .999611378}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hat_JNT
+      position: {x: -2.85421443, y: 1.27897687e-15, z: -3.58183764e-15}
+      rotation: {x: .692837536, y: -.0342719667, z: -.0555372536, w: .718134522}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint6
+      position: {x: -2.04326534, y: -4.97379917e-16, z: -4.26325632e-16}
+      rotation: {x: .138999566, y: -.131210983, z: .694826365, w: .693310261}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lshoulder_JNT
+      position: {x: -1.26804447, y: -.146125659, z: .512293994}
+      rotation: {x: -.525203645, y: .471787095, z: .369633675, w: .604110122}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LarmJNT
+      position: {x: -.650624454, y: -6.01794674e-16, z: -5.96666155e-17}
+      rotation: {x: .158582583, y: .0290638916, z: .16829285, w: .972463071}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lforearm_JNT
+      position: {x: -1.13823652, y: 5.59054768e-16, z: -1.12385969e-17}
+      rotation: {x: .0484121442, y: .00890441891, z: -.0540916435, w: .997322023}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lhand_JNT
+      position: {x: -.959798872, y: 6.26159259e-16, z: -4.18636935e-17}
+      rotation: {x: -.122741267, y: .0373925678, z: -.0385873131, w: .990983069}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint16
+      position: {x: -1.3511337, y: 7.35076169e-17, z: 1.6957606e-15}
+      rotation: {x: -.499486595, y: -.444148749, z: .391960084, w: .632148981}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Rshoulder_JNT
+      position: {x: -1.26804435, y: -.146126017, z: -.512293518}
+      rotation: {x: .525203884, y: -.471787184, z: .369633585, w: .604110003}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Rarm_JNT
+      position: {x: -.650625885, y: -4.16162348e-16, z: -1.79904411e-16}
+      rotation: {x: -.158281893, y: -.0290142354, z: .168299571, w: .972512364}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Rforearm_JNT
+      position: {x: -1.1382395, y: -3.45033127e-16, z: -1.58250835e-17}
+      rotation: {x: -.0484135114, y: -.00891587697, z: -.05409576, w: .997321546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Rhand_JNT
+      position: {x: -.959798813, y: 1.48420226e-15, z: 7.26240027e-17}
+      rotation: {x: .122452199, y: -.0374576598, z: -.0385408029, w: .991018176}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint11
+      position: {x: -1.35112715, y: 9.59588009e-17, z: -6.13093882e-16}
+      rotation: {x: .444149762, y: -.499486685, z: .632147968, w: -.391960472}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: snowman
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
