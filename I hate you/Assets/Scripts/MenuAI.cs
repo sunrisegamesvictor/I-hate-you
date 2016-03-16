@@ -30,7 +30,7 @@ public class MenuAI : MonoBehaviour {
 
 	public void onPlay()
 	{
-		Application.LoadLevel ("map2");
+		Application.LoadLevel (" map2");
 	}
 
 	public void fromShopToMain()

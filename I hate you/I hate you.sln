@@ -7,10 +7,6 @@ Project("{D2EC37D8-8BCB-C82D-AF65-2C2A0A50D123}") = "I hate you", "Assembly-CSha
 EndProject
 Project("{D2EC37D8-8BCB-C82D-AF65-2C2A0A50D123}") = "I hate you", "Assembly-CSharp-Editor.csproj", "{69F20B9C-8EC4-EE4F-D338-62D149908D28}"
 EndProject
-Project("{D2EC37D8-8BCB-C82D-AF65-2C2A0A50D123}") = "I hate you", "Assembly-UnityScript-firstpass.unityproj", "{9B026252-B6B2-44D8-A9A1-1DB18B353B23}"
-EndProject
-Project("{D2EC37D8-8BCB-C82D-AF65-2C2A0A50D123}") = "I hate you", "Assembly-UnityScript.unityproj", "{EC334EBE-CABA-6E57-86E4-CFF0FE6F23F9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,14 +25,6 @@ Global
 		{69F20B9C-8EC4-EE4F-D338-62D149908D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F20B9C-8EC4-EE4F-D338-62D149908D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F20B9C-8EC4-EE4F-D338-62D149908D28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B026252-B6B2-44D8-A9A1-1DB18B353B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B026252-B6B2-44D8-A9A1-1DB18B353B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B026252-B6B2-44D8-A9A1-1DB18B353B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B026252-B6B2-44D8-A9A1-1DB18B353B23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC334EBE-CABA-6E57-86E4-CFF0FE6F23F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC334EBE-CABA-6E57-86E4-CFF0FE6F23F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC334EBE-CABA-6E57-86E4-CFF0FE6F23F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC334EBE-CABA-6E57-86E4-CFF0FE6F23F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
